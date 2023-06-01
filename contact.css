@@ -96,3 +96,7 @@ textarea{
 input{
     border: solid black;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
