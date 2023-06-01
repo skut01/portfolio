@@ -78,15 +78,21 @@ form{
     flex-direction: column;
     height: 60%;
     width: 80%;
-    border: solid black;
+
+    border-radius: 10%;
     padding: 2%;
 }
 button{
     background-color: rgb(255, 189, 89);
     width: 20%;
+    border-radius: 5%;
+    border: solid black;
 }
 textarea{
     height: 100%;
     width: 100%;
+    border: solid black;
+}
+input{
     border: solid black;
 }

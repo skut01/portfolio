@@ -16,7 +16,44 @@ header{
     justify-content: space-between;
     height: 10%;
 }
+.choix{
+    margin-top: 2%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+.choix>div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    font-size: larger;
+}
+
+button{
+    display: inline-block;
+    color: black;
+    background-color: rgb(255, 189, 89);
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
 .titre{
 
     display: flex;
@@ -67,7 +104,7 @@ main{
     width: 100%;
     font-size: 20px;
 }
-main>div{
+main>div>div{
     background-color:white;
     border-radius: 5px;
     margin-top: 2%;

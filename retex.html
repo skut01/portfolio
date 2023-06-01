@@ -20,13 +20,23 @@
             <p>|</p>
             <p><a href="retex.html">Retex</a></p>
             <p>|</p>
-            <p>Contacts</p>
+            <p><a href="contact.html">Contacts</a></p>
         </div>
     </header>
     <div class="separe"></div>
+    <div class="choix">
+        <div>
+            <p class="nom">Afficher les retex d'informatique:  </p>
+            <button onclick="afficherInfo()">Informatique</button>
+        </div>
+        <div>
+            <p class="nom">Afficher les autres retex:   </p>
+            <button onclick="afficherAutre()">Autre</button>
+        </div>
 
+    </div>
     <main>
-        
+        <div class="info">
         <div class="retex1">
         <div class="titreRetex"><h1>Projet Odomo</h1> <h2 style="color: rgb(255, 189, 89); background-color: black; display: flex; justify-content: center; align-items: center;padding: 2%; border-radius: 30%; border: solid black">Java</h2></div>
         <div class="explication">
@@ -160,10 +170,11 @@
             </div>
         </div>
             <div class="images">
-                <img src="archi_log.png" style="height: 100%; width: 30%;">
+                <img src="SKUTECKIMARTINSCarteMentale.png" style="height: 100%; width: 50%;">
             </div>
         </div>
-
+    </div>
+    <div class="autre">
         <div class="retex5">
             <h1>Rapport d’analyse 
                 des macro et micro-environnements </h1>
@@ -193,10 +204,90 @@
                 </ul>
             </div>
         </div>
-            <div class="images">
-                <img src="archi_log.png" style="height: 100%; width: 30%;">
+            
+        </div>
+
+        <div class="retex6">
+            <h1> Évaluation des effets écologiques d’une bande enherbée par l’exploitation d’un modèle analogique </h1>
+        <div class="explication">
+            <div>
+                <h4>Cahier des charges:</h4>
+                <p>
+                    Réalisation d'un rapport de TIPE sur l'année de prépa BCPST 2020-2021
+                </p>
+            
+                <div>
+                    <h4>Compétences acquises:</h4>
+                
+                    <p>Méthodologie scientifique<br>Mise en place de protocoles d'expériences<br>Analyse de résultats<br>Premier projet long (1année)</p><p>Rédaction scientifique</p>
+                </div>
+            </div>   
+            <div class="metho">
+                <h4>Méthodologie:</h4>
+                <ul>
+                    <li>Recherche de sujet</li>
+                    <li>Etablissement d'une problématique</li>
+                    <li>Conception d'expériences</li>
+                    <li>Recherche Bibliographique</li>
+                    <li>Réalisation d'expériences</li>
+                    <li>Analyse de résultats</li>
+                    <li>Rédaction</li>
+                </ul>
             </div>
         </div>
+            <div class="images">
+                <img src="tipe1.png" style="height: 100%; width: 30%;">
+                <img src="tipe1reel.png" style="height: 100%; width: 20%;">
+            </div>
+        </div>
+
+        <div class="retex7">
+            <h1> Détection de marnières en Seine-Maritime par des méthodes géophysiques </h1>
+        <div class="explication">
+            <div>
+                <h4>Cahier des charges:</h4>
+                <p>
+                    Réalisation d'un rapport de TIPE sur l'année de prépa BCPST 2021-2022 axé sur la géologie
+                </p>
+            
+                <div>
+                    <h4>Compétences acquises:</h4>
+                
+                    <p>Méthodologie scientifique<br>Mise en place de protocoles d'expériences<br>Analyse de résultats<br>Premier projet long (1année)</p><p>Rédaction scientifique</p>
+                </div>
+            </div>   
+            <div class="metho">
+                <h4>Méthodologie:</h4>
+                <ul>
+                    <li>Recherche de sujet</li>
+                    <li>Etablissement d'une problématique</li>
+                    <li>Conception d'expériences</li>
+                    <li>Recherche Bibliographique</li>
+                    <li>Réalisation d'expériences</li>
+                    <li>Analyse de résultats</li>
+                    <li>Rédaction</li>
+                </ul>
+            </div>
+        </div>
+            <div class="images">
+                <img src="tipe2coupes.png" style="height: 100%; width: 30%;">
+                <img src="tipe2mach.png" style="height: 100%; width: 20%;">
+            </div>
+        </div>
+    </div> 
     </main>
+    <script>
+        const info= document.querySelector(".info");
+        const autre = document.querySelector(".autre");
+        function afficherInfo() {
+            info.style.display="block";
+            autre.style.display="none";
+        }    
+
+        function afficherAutre(){
+            info.style.display="none";
+            autre.style.display="block";
+        }
+    </script>
 </body>
 </html>
