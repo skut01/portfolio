@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and  (min-width:640px)"href="index.css">
+    <link rel="stylesheet" media="screen and  (max-width:640px)" href="indexsmall.css">
+</head>
+<body>
+    <header>
+        <div class="titre">
+            <div><div> </div>
+            <h1>Skutecki Paul</h1></div>
+            <p><a href="index.html">Portfolio</a></p>
+        </div>
+        <div class="liens">
+            <p><a href="CV.html">CV</a></p>
+            <p>|</p>
+            <p><a href="retex.html">Retex</a></p>
+            <p>|</p>
+            <p><a href="contact.html">Contacts</a></p>
+        </div>
+    </header>
+    <div class="separe"></div>
+    <main>
+        <div>
+            <img class="profil" src="photorandom.jpg">
+            <div>
+                <div class="texte">
+                <h1>SKUTECKI Paul</h1>
+                
+                <p><h2>Portfolio</h2>Ce site a pour objectif de rassembler toutes les expériences acquises tout au long de ma formation. N'hésitez pas à consulter les retours d'expériences mis à votre disposition, mon CV et à me contacter pour plus de précisions.</p>
+                </div>
+                <div class="ronds">
+                    <div class="rondCV"> <a href="CV.html">CV</a> </div>
+                    <div class="rondRetex"> <a href="retex.html">Retex</a> </div>
+                    <div class="rondContacts"> <a>Contacts</a> </div>
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <div class="separe"></div>
+    <footer>
+        <div>
+            <h3>Téléphone</h3>
+            <p>06.95.58.34.60</p>
+        </div>
+        <div>
+            <h3>Réseaux</h3>
+        </div>
+        <div>
+            <h3>Mail</h3>
+            <p>skut.prepa@gmail.com</p>
+        </div>
+    </footer>
+    <script>
+        function typeEffect(element, speed) {
+	        var text = element.innerHTML;
+	        element.innerHTML = "";
+	        var i = 0;
+	        var timer = setInterval(function() {
+            if (i < text.length) {
+                element.append(text.charAt(i));
+                i++;
+            } else {
+            clearInterval(timer);
+            }
+            }, speed);
+        }
+
+
+// application
+var speed = 100;
+var h1 = document.querySelector('.texte>h1');
+
+var delay = h1.innerHTML.length * speed + speed;
+
+// type affect to header
+typeEffect(h1, speed);
+
+
+// type affect to body
+setTimeout(function(){
+  p.style.display = "inline-block";
+  typeEffect(p, speed);
+}, delay);
+    </script>
+</body>
+</html>

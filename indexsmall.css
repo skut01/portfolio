@@ -1,0 +1,130 @@
+html{
+    display:block;
+    height: 99%;
+    font: 1em sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body{
+    display: block;
+    height: 99%;
+}
+
+header{
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    height: 15%;
+}
+
+.titre{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.titre a{
+    display: none;
+}
+
+.titre>div{
+    display: flex;
+    align-items: center;
+    width: 45%;
+
+}
+
+.titre>div>div{
+    background-color: rgb(255, 189, 89);;
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    margin-right: 5%;
+}
+.titre>p{
+    margin-left: 1%;
+}
+
+.liens{
+    display: none;
+}
+main{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+main>div{
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main>div>div{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.texte{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    text-align: justify;
+}
+
+main h1{
+    display: none;
+}
+
+.ronds{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50%;
+}
+
+.ronds>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 189, 89);
+    width: 30%;
+    height: 100px;
+    border-radius: 50px;
+    border: solid;
+}
+
+.ronds>div:hover{
+    background-color: black
+}
+
+.ronds>div:hover>a{
+    color: white;
+}
+.profil{
+    position: absolute;
+    top:5px;
+    left: 250px;
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+
+.separe{
+    background-color: black;
+    box-shadow: 1px 3px 5px grey ;
+    height: 1px;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+footer>div{
+    margin: 0%;
+}

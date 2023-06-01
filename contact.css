@@ -1,0 +1,91 @@
+html{
+    display:block;
+    height: 99%;
+    font: 1em sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body{
+    display: block;
+    height: 99%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+}
+
+.titre{
+
+    display: flex;
+    align-items: center;
+
+    width: 30%;
+}
+.titre>div{
+    display: flex;
+
+    align-items: center;
+    width: 45%;
+}
+.titre>div>div{
+    background-color: rgb(255, 189, 89);;
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+    margin-right: 5%;
+}
+.titre>p{
+    margin-left: 1%;
+}
+
+.liens{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 10%;
+}
+
+.separe{
+    background-color: black;
+    box-shadow: 1px 3px 5px grey ;
+    height: 1px;
+    width: 100%;
+}
+
+main{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70%;
+}
+
+main>h2{
+    background-color: rgb(255, 189, 89);
+    padding: 2%;
+}
+
+form{
+    margin-top: 2%;
+    display: flex;
+
+    justify-content: space-around;
+    flex-direction: column;
+    height: 60%;
+    width: 80%;
+    border: solid black;
+    padding: 2%;
+}
+button{
+    background-color: rgb(255, 189, 89);
+    width: 20%;
+}
+textarea{
+    height: 100%;
+    width: 100%;
+}
