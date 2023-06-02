@@ -154,6 +154,11 @@ img{
     height: 95%;
     width: 40%;
 }
+
+.consulte{
+     font-weight: bold;  
+}
+
 .images{
     display: flex;
     justify-content: space-around;
